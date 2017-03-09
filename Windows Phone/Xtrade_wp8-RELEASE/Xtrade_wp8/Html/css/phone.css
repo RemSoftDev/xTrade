@@ -1,0 +1,19 @@
+﻿html, body {
+    padding: 0;
+    margin: 0 auto;
+    overflow: auto;
+    height:100%;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -ms-content-zooming: none;
+    -ms-overflow-style: none !important;
+    -ms-touch-action: none !important
+}
+
+@-ms-viewport{width:device-width; }
+@viewport{width:device-width; }
+
+#page-title {
+    font-size: 24pt;
+}

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="fr" />
+    <Language code="es" />
+    <Language code="ar" />
+    <Language code="zh-Hans" />
+    <Language code="en" />
+    <Language code="hu-HU" />
+    <Language code="it-IT" />
+    <Language code="ms-MY" />
+    <Language code="pl-PL" />
+    <Language code="ru-RU" />
+    <Language code="sk-SK" />
+    <Language code="es-ES" />
+    <Language code="ar-SA" />
+    <Language code="fr-FR" />
+    <Language code="zh-CN" />
+    <Language code="" />
+    <Language code="ru" />
+    <Language code="ru-BY" />
+    <Language code="ru-KZ" />
+    <Language code="ru-KG" />
+    <Language code="ru-MD" />
+    <Language code="ru-UA" />
+  </Languages>
+  <App xmlns="" ProductID="{DEC56F68-3DCC-4A8A-9FFD-05F1D4FC5102}" Title="XTrade_WP8" RuntimeType="Silverlight" Version="3.0.0.23" Genre="apps.normal" Author="Xtrade_wp8 author" Description="Sample description" Publisher="CN=259FAAA1-399A-4E9F-8660-982790CA1488" PublisherID="{DEC56F68-3DCC-4A8A-9FFD-05F1D4FC5102}" SDOptOut="true" NotificationService="MPN">
+    <IconPath IsRelative="true" IsResource="false">icon_wp.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_IDENTITY_DEVICE" />
+      <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="Xtrade_wp8Token" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">icon_wp.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">icon_wp_336_336.png</BackgroundImageURI>
+          <Title>
+          </Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false">
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
+          <HasLarge>False</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
